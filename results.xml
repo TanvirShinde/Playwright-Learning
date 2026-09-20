@@ -1,0 +1,97 @@
+<testsuites id="" name="" tests="4" failures="0" skipped="0" errors="0" time="3.24004">
+<testsuite name="APITest.spec.js" timestamp="2026-09-20T07:39:27.970Z" hostname="chromium" tests="4" failures="0" skipped="0" time="1.763" errors="0">
+<testcase name="Get Users" classname="APITest.spec.js" time="0.72">
+<system-out>
+<![CDATA[{
+  data: {
+    id: [33m2[39m,
+    email: [32m'janet.weaver@reqres.in'[39m,
+    first_name: [32m'Janet'[39m,
+    last_name: [32m'Weaver'[39m,
+    avatar: [32m'https://reqres.in/img/faces/2-image.jpg'[39m
+  },
+  support: {
+    url: [32m'https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral'[39m,
+    text: [32m'Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO.'[39m
+  },
+  _meta: {
+    powered_by: [32m'ReqRes'[39m,
+    docs_url: [32m'https://app.reqres.in/documentation'[39m,
+    upgrade_url: [32m'https://app.reqres.in/upgrade'[39m,
+    example_url: [32m'https://app.reqres.in/examples/notes-app'[39m,
+    variant: [32m'v1_a'[39m,
+    message: [32m'Your data persists here. Add auth, logs, and custom schemas to build a real backend.'[39m,
+    cta: {
+      label: [32m'See example app'[39m,
+      url: [32m'https://app.reqres.in/examples/notes-app'[39m
+    },
+    context: [32m'legacy_success'[39m
+  }
+}
+
+[[ATTACHMENT|test-results\APITest-Get-Users-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Create User" classname="APITest.spec.js" time="0.398">
+<system-out>
+<![CDATA[{
+  name: [32m'mayal QA'[39m,
+  job: [32m'Software Engineer'[39m,
+  id: [32m'645'[39m,
+  createdAt: [32m'2026-09-20T07:39:30.422Z'[39m,
+  _meta: {
+    powered_by: [32m'ReqRes'[39m,
+    docs_url: [32m'https://app.reqres.in/documentation'[39m,
+    upgrade_url: [32m'https://app.reqres.in/upgrade'[39m,
+    example_url: [32m'https://app.reqres.in/examples/notes-app'[39m,
+    variant: [32m'v1_a'[39m,
+    message: [32m'Your data persists here. Add auth, logs, and custom schemas to build a real backend.'[39m,
+    cta: {
+      label: [32m'See example app'[39m,
+      url: [32m'https://app.reqres.in/examples/notes-app'[39m
+    },
+    context: [32m'legacy_success'[39m
+  }
+}
+User ID is : 645
+
+[[ATTACHMENT|test-results\APITest-Create-User-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Update User" classname="APITest.spec.js" time="0.39">
+<system-out>
+<![CDATA[{
+  name: [32m'Smita QA'[39m,
+  job: [32m'Senior Software Engineer'[39m,
+  updatedAt: [32m'2026-09-20T07:39:30.873Z'[39m,
+  _meta: {
+    powered_by: [32m'ReqRes'[39m,
+    docs_url: [32m'https://app.reqres.in/documentation'[39m,
+    upgrade_url: [32m'https://app.reqres.in/upgrade'[39m,
+    example_url: [32m'https://app.reqres.in/examples/notes-app'[39m,
+    variant: [32m'v1_a'[39m,
+    message: [32m'Your data persists here. Add auth, logs, and custom schemas to build a real backend.'[39m,
+    cta: {
+      label: [32m'See example app'[39m,
+      url: [32m'https://app.reqres.in/examples/notes-app'[39m
+    },
+    context: [32m'legacy_success'[39m
+  }
+}
+
+[[ATTACHMENT|test-results\APITest-Update-User-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Delete Record" classname="APITest.spec.js" time="0.255">
+<system-out>
+<![CDATA[[33m204[39m
+
+[[ATTACHMENT|test-results\APITest-Delete-Record-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

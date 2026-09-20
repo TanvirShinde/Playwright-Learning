@@ -19,4 +19,7 @@ test('Built in locators', async ({ page }) => {
 
     await expect ( await page.getByText(profilename)).toBeVisible();
 
+    await page.click('//button[@id='alertBtn']');
+     page.waitForTimeout(5000);
+
 })

@@ -1,0 +1,275 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Pavan SDET JS\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "APITest.spec.js"
+    ],
+    "configFile": "C:\\Pavan SDET JS\\playwright.config.js",
+    "rootDir": "C:/Pavan SDET JS/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Pavan SDET JS/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Pavan SDET JS/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "results.xml"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 2,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "APITest.spec.js",
+      "file": "APITest.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Get Users",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 720,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "{\n  data: {\n    id: \u001b[33m2\u001b[39m,\n    email: \u001b[32m'janet.weaver@reqres.in'\u001b[39m,\n    first_name: \u001b[32m'Janet'\u001b[39m,\n    last_name: \u001b[32m'Weaver'\u001b[39m,\n    avatar: \u001b[32m'https://reqres.in/img/faces/2-image.jpg'\u001b[39m\n  },\n  support: {\n    url: \u001b[32m'https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral'\u001b[39m,\n    text: \u001b[32m'Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO.'\u001b[39m\n  },\n  _meta: {\n    powered_by: \u001b[32m'ReqRes'\u001b[39m,\n    docs_url: \u001b[32m'https://app.reqres.in/documentation'\u001b[39m,\n    upgrade_url: \u001b[32m'https://app.reqres.in/upgrade'\u001b[39m,\n    example_url: \u001b[32m'https://app.reqres.in/examples/notes-app'\u001b[39m,\n    variant: \u001b[32m'v1_a'\u001b[39m,\n    message: \u001b[32m'Your data persists here. Add auth, logs, and custom schemas to build a real backend.'\u001b[39m,\n    cta: {\n      label: \u001b[32m'See example app'\u001b[39m,\n      url: \u001b[32m'https://app.reqres.in/examples/notes-app'\u001b[39m\n    },\n    context: \u001b[32m'legacy_success'\u001b[39m\n  }\n}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-20T07:39:29.069Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Pavan SDET JS\\test-results\\APITest-Get-Users-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bac4569f11a28b96434-f96a37a9a670214b9b18",
+          "file": "APITest.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Create User",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 398,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "{\n  name: \u001b[32m'mayal QA'\u001b[39m,\n  job: \u001b[32m'Software Engineer'\u001b[39m,\n  id: \u001b[32m'645'\u001b[39m,\n  createdAt: \u001b[32m'2026-09-20T07:39:30.422Z'\u001b[39m,\n  _meta: {\n    powered_by: \u001b[32m'ReqRes'\u001b[39m,\n    docs_url: \u001b[32m'https://app.reqres.in/documentation'\u001b[39m,\n    upgrade_url: \u001b[32m'https://app.reqres.in/upgrade'\u001b[39m,\n    example_url: \u001b[32m'https://app.reqres.in/examples/notes-app'\u001b[39m,\n    variant: \u001b[32m'v1_a'\u001b[39m,\n    message: \u001b[32m'Your data persists here. Add auth, logs, and custom schemas to build a real backend.'\u001b[39m,\n    cta: {\n      label: \u001b[32m'See example app'\u001b[39m,\n      url: \u001b[32m'https://app.reqres.in/examples/notes-app'\u001b[39m\n    },\n    context: \u001b[32m'legacy_success'\u001b[39m\n  }\n}\n"
+                    },
+                    {
+                      "text": "User ID is : 645\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-20T07:39:29.910Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Pavan SDET JS\\test-results\\APITest-Create-User-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bac4569f11a28b96434-47a28f5464eb204709d1",
+          "file": "APITest.spec.js",
+          "line": 11,
+          "column": 5
+        },
+        {
+          "title": "Update User",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 390,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "{\n  name: \u001b[32m'Smita QA'\u001b[39m,\n  job: \u001b[32m'Senior Software Engineer'\u001b[39m,\n  updatedAt: \u001b[32m'2026-09-20T07:39:30.873Z'\u001b[39m,\n  _meta: {\n    powered_by: \u001b[32m'ReqRes'\u001b[39m,\n    docs_url: \u001b[32m'https://app.reqres.in/documentation'\u001b[39m,\n    upgrade_url: \u001b[32m'https://app.reqres.in/upgrade'\u001b[39m,\n    example_url: \u001b[32m'https://app.reqres.in/examples/notes-app'\u001b[39m,\n    variant: \u001b[32m'v1_a'\u001b[39m,\n    message: \u001b[32m'Your data persists here. Add auth, logs, and custom schemas to build a real backend.'\u001b[39m,\n    cta: {\n      label: \u001b[32m'See example app'\u001b[39m,\n      url: \u001b[32m'https://app.reqres.in/examples/notes-app'\u001b[39m\n    },\n    context: \u001b[32m'legacy_success'\u001b[39m\n  }\n}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-20T07:39:30.365Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Pavan SDET JS\\test-results\\APITest-Update-User-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bac4569f11a28b96434-140095d0825a9ba12708",
+          "file": "APITest.spec.js",
+          "line": 30,
+          "column": 5
+        },
+        {
+          "title": "Delete Record",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 255,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "\u001b[33m204\u001b[39m\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-20T07:39:30.807Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Pavan SDET JS\\test-results\\APITest-Delete-Record-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3bac4569f11a28b96434-8c98cd1dfe763ad9aff3",
+          "file": "APITest.spec.js",
+          "line": 46,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-20T07:39:27.894Z",
+    "duration": 3240.04,
+    "expected": 4,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
